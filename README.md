@@ -1,71 +1,65 @@
-# desxa-companion README
+# Desxa: Mi Compañero Delfín en el Viaje del Desarrollo
 
-This is the README for your extension "desxa-companion". After writing up a brief description, we recommend including the following sections.
+Este repositorio alberga un proyecto muy personal: **Desxa**, mi mascota de marca. Un delfín que me acompaña desde mis grafitis y ahora lo hará en mi camino como desarrollador. Busco crear una **mascota personalizada para VS Code**, que nade y me acompañe en cada línea de código, recordándome la perseverancia y la alegría de crear. Un pedazo de mi alma en código.
+
+---
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Describe las características específicas de tu extensión, incluyendo capturas de pantalla de Desxa en acción. Las rutas de las imágenes son relativas a este archivo README.
 
-For example if there is an image subfolder under your extension project workspace:
+Por ejemplo, si tienes una subcarpeta `images` dentro del espacio de trabajo de tu extensión:
 
-\!\[feature X\]\(images/feature-x.png\)
+![Desxa en acción](images/desxa-feature.png)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Muchas extensiones populares usan animaciones. ¡Esta es una excelente manera de mostrar tu extensión! Recomendamos animaciones cortas y enfocadas que sean fáciles de seguir.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Si tu extensión tiene requisitos o dependencias, añádelos aquí.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Incluye si tu extensión añade alguna configuración de VS Code a través del punto de extensión `contributes.configuration`.
 
-For example:
+Por ejemplo:
 
-This extension contributes the following settings:
+Esta extensión contribuye con las siguientes configuraciones:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `desxaCompanion.enable`: Habilita/deshabilita la extensión de Desxa.
+* `desxaCompanion.petType`: Tipo de mascota para Desxa (ej. "Delfín", "Pez").
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Indicar los problemas conocidos puede ayudar a limitar que los usuarios abran problemas duplicados contra tu extensión.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Los usuarios aprecian las notas de la versión a medida que actualizas tu extensión.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Lanzamiento inicial de Desxa, tu compañero delfín en VS Code.
 
 ---
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Asegúrate de haber leído las guías de extensiones y seguir las mejores prácticas para crear tu extensión.
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Puedes crear tu README usando Visual Studio Code. Aquí hay algunos atajos de teclado útiles del editor:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+* Dividir el editor (`Cmd+\` en macOS o `Ctrl+\` en Windows y Linux).
+* Alternar vista previa (`Shift+Cmd+V` en macOS o `Shift+Ctrl+V` en Windows y Linux).
+* Presiona `Ctrl+Space` (Windows, Linux, macOS) para ver una lista de snippets de Markdown.
 
 ## For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**¡Disfruta!**
