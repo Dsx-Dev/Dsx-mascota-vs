@@ -1,21 +1,43 @@
 {
   "name": "desxa-companion",
-  "displayName": "desxa-companion",
-  "description": "Un compañero delfín personalizado para VS Code, Desxa.",
+  "displayName": "Desxa - Mascota Virtual",
+  "description": "Un delfín virtual llamado Desxa",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.101.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "desxa-companion.helloWorld",
-        "title": "Hello World"
+        "command": "desxa-companion.showDesxa",
+        "title": "Desxa: Ver estado"
+      },
+      {
+        "command": "desxa-companion.playWithDesxa",
+        "title": "Desxa: Jugar"
+      },
+      {
+        "command": "desxa-companion.alimentarDesxa",
+        "title": "Desxa: Alimentar"
+      },
+      {
+        "command": "desxa-companion.acariciarDesxa",
+        "title": "Desxa: Acariciar"
+      },
+      {
+        "command": "desxa-companion.descansarDesxa",
+        "title": "Desxa: Descansar"
+      },
+      {
+        "command": "desxa-companion.showPanel",
+        "title": "Desxa: Mostrar mascota en panel"
       }
     ]
   },
@@ -24,18 +46,11 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src",
-    "test": "vscode-test"
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.101.0",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@typescript-eslint/eslint-plugin": "^8.31.1",
-    "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
-    "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x"
   }
 }
